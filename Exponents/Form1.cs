@@ -8,11 +8,12 @@ using System.Text;
 using System.Windows.Forms;
 
 /**************************************
- * Name:
- * Date:
+ * Name:Christian J Munoz
+ * Date:5/8/2022
  * Description: A program using user-created method
  *              for the math function Square and Cube
- * Assistance:
+ * Assistance:I use examples form the website stackoverflow.com to give me ideas on how to create the code
+              and solve things I'm stuck on.
  *************************************/
 
 namespace Exponents
@@ -27,9 +28,10 @@ namespace Exponents
         private void xGoButton_Click(object sender, EventArgs e)
         {
             // STORAGE
+            
 
             // INPUT
-
+           
             // PROCESS
             /* calculate the square of the number and add it to the output - 
              * do this with a method call that allows you to pass the number
@@ -61,5 +63,9 @@ namespace Exponents
             // turn the Go button back on
         }
 
+        private void xInputLabel_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
