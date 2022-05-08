@@ -67,8 +67,11 @@ namespace Exponents
         private void xResetButton_Click(object sender, EventArgs e)
         {
             // the input and output text should be emptied
+            uxInputTextBox.Text = "";
             // turn the output to invisible
+            uxOutputLabel.Visible = false;
             // turn the Go button back on
+            uxGoButton.Enabled = true;
         }
 
         private void xInputLabel_Click(object sender, EventArgs e)
